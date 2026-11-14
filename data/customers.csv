@@ -1,0 +1,14 @@
+CustomerCode,CustomerName,Country,Region,Email
+C-1001,North Atlantic Salmon Co.,Canada,Atlantic Canada,ops@north-atlantic-salmon-co.example
+C-1002,Fundy Bay Aquafarms,Canada,Atlantic Canada,ops@fundy-bay-aquafarms.example
+C-1003,Cape Breton Seafarms,Canada,Atlantic Canada,ops@cape-breton-seafarms.example
+C-1004,Pacific Rim Fisheries Research,Canada,Western Canada,ops@pacific-rim-fisheries-research.example
+C-1005,Great Lakes Fish Institute,United States,Midwest,ops@great-lakes-fish-institute.example
+C-1006,Fjordline Aquaculture,Norway,Europe,ops@fjordline-aquaculture.example
+C-1007,Patagonia Salmon Farms,Chile,South America,ops@patagonia-salmon-farms.example
+C-1008,Aegean Sea Farms,Greece,Europe,ops@aegean-sea-farms.example
+C-1009,Red Sea Mariculture,Saudi Arabia,Middle East,ops@red-sea-mariculture.example
+C-1010,Columbia River Conservation Lab,United States,Pacific Northwest,ops@columbia-river-conservation-lab.example
+C-1011,Shetland Marine Harvest,United Kingdom,Europe,ops@shetland-marine-harvest.example
+C-1012,Nile Delta Aquaculture,Egypt,Middle East,ops@nile-delta-aquaculture.example
+C-1013,,Canada,Atlantic Canada,ops@unknown.example

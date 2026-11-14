@@ -1,0 +1,9 @@
+ProductCode,ProductName,ProductLine,UnitPrice
+TAG-V9,Acoustic Tag V9,Fish Tracking,300.00
+TAG-V13,Acoustic Tag V13,Fish Tracking,420.00
+RCV-200,Acoustic Receiver,Fish Tracking,1600.00
+RCV-LR,Long-Range Receiver,Fish Tracking,2400.00
+SEN-O2,Oxygen Sensor,Aquaculture Intelligence,950.00
+SEN-TMP,Temperature Sensor,Aquaculture Intelligence,450.00
+CAM-BIO,Biomass Camera,Aquaculture Intelligence,7800.00
+HUB-100,Sensor Hub,Aquaculture Intelligence,2200.00
