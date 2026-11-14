@@ -104,6 +104,7 @@ with ops_tab:
         monthly = (budget.groupby("BudgetMonth")[["BudgetAmount", "ActualRevenue"]]
                    .sum().rename(columns={"BudgetAmount": "Budget",
                                           "ActualRevenue": "Actual"}))
+        monthly.index = pd.to_datetime(monthly.index).strftime("%Y-%m")
         st.bar_chart(monthly, stack=False)
         st.dataframe(budget, hide_index=True, use_container_width=True,
                      column_config={
