@@ -6,8 +6,8 @@ def latest_run_id(conn) -> int:
     """The most recent successful load into staging."""
     row = conn.cursor().execute(
         """SELECT MAX(RunId) FROM etl.RunLog
-           WHERE PipelineName = 'load_staging' AND Status = 'Succeeded';"""
-    ).fetchone()
+           WHERE PipelineName IN ('load_staging', 'nightly_pipeline')
+             AND Status = 'Succeeded';"""    ).fetchone()
     if row[0] is None:
         raise RuntimeError("No successful staging load found. Run load_staging.py first.")
     return row[0]
