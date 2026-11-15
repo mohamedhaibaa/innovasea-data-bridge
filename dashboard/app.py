@@ -33,8 +33,7 @@ def query(sql: str) -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------- data
-run = query("""SELECT TOP 1 RunId, Status, StartedAtUtc, RowsLoaded, RowsRejected
-               FROM etl.RunLog ORDER BY RunId DESC""")
+run = query("SELECT RunId, Status, StartedAtUtc, RowsLoaded, RowsRejected FROM rpt.LatestRun")
 sales = query("SELECT SalesMonth, ProductLine, Orders, Units, Revenue FROM rpt.SalesByMonth")
 sales["SalesMonth"] = pd.to_datetime(sales["SalesMonth"])
 pending = query("""SELECT OrderNumber, CustomerName, Region, OrderDate, DaysOpen,
